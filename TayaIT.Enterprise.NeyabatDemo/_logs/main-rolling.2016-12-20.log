@@ -1,0 +1,364 @@
+----------------------------------------
+Timestamp: 12/18/2016 5:03:24 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:03:58 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:07:10 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:14:16 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:16:03 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:24:05 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:24:33 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:24:57 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:25:39 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:28:22 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:29:09 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:30:17 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:31:25 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:33:47 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/18/2016 5:34:26 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 11:54:07 AM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 11:56:31 AM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 12:02:50 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 12:12:53 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 12:14:42 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 12:15:53 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 12:18:48 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 12:20:28 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 12:31:21 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 12:32:20 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/19/2016 12:32:53 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------

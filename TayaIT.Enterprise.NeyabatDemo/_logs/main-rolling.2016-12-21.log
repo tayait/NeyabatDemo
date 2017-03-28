@@ -1,0 +1,132 @@
+----------------------------------------
+Timestamp: 12/20/2016 12:18:44 PM
+
+Category: add new img  - Priority: -1 - Title:Could not find a part of the path 'Z:\speakers_10_05_2016_2_12_18_pm.mp3'.
+
+Message: <SOURCE>mscorlib</SOURCE><STACKTRACE>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at System.IO.File.Copy(String sourceFileName, String destFileName)
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e) in e:\Neyabat\NeyabatDemo\Default.aspx.cs:line 59</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/20/2016 2:47:29 PM
+
+Category: add new img  - Priority: -1 - Title:Could not find a part of the path 'Z:\session_10_05_2016_1_2_47_pm.mp3'.
+
+Message: <SOURCE>mscorlib</SOURCE><STACKTRACE>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at System.IO.File.Copy(String sourceFileName, String destFileName)
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e) in e:\Neyabat\NeyabatDemo\Default.aspx.cs:line 59</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/20/2016 2:48:57 PM
+
+Category: add new img  - Priority: -1 - Title:Could not find a part of the path 'Z:\session_10_05_2016_1_2_48_pm.mp3'.
+
+Message: <SOURCE>mscorlib</SOURCE><STACKTRACE>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at System.IO.File.Copy(String sourceFileName, String destFileName)
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e) in e:\Neyabat\NeyabatDemo\Default.aspx.cs:line 59</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/20/2016 5:02:46 PM
+
+Category: add new img  - Priority: -1 - Title:LogonUser Failed: 1008 - 0
+
+Message: <SOURCE>App_Code.cbkip1hq</SOURCE><STACKTRACE>   at TayaIT.Enterprise.Neyabat.Web.LogonUtility.ImpersonateUser(String username, String password) in e:\Neyabat\NeyabatDemo\App_Code\LogonUtility.cs:line 130
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e) in e:\Neyabat\NeyabatDemo\Default.aspx.cs:line 63</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/20/2016 5:10:47 PM
+
+Category: add new img  - Priority: -1 - Title:LogonUser Failed: 1008 - 0
+
+Message: <SOURCE>App_Code.cbkip1hq</SOURCE><STACKTRACE>   at TayaIT.Enterprise.Neyabat.Web.LogonUtility.ImpersonateUser(String username, String password) in e:\Neyabat\NeyabatDemo\App_Code\LogonUtility.cs:line 130
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e)</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/20/2016 5:13:10 PM
+
+Category: add new img  - Priority: -1 - Title:LogonUser Failed: 1008 - 1326
+
+Message: <SOURCE>App_Code.cbkip1hq</SOURCE><STACKTRACE>   at TayaIT.Enterprise.Neyabat.Web.LogonUtility.ImpersonateUser(String username, String password) in e:\Neyabat\NeyabatDemo\App_Code\LogonUtility.cs:line 130
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e) in e:\Neyabat\NeyabatDemo\Default.aspx.cs:line 63</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/20/2016 5:16:58 PM
+
+Category: add new img  - Priority: -1 - Title:LogonUser Failed: 1008 - 0
+
+Message: <SOURCE>App_Code.0k4excg1</SOURCE><STACKTRACE>   at TayaIT.Enterprise.Neyabat.Web.LogonUtility.ImpersonateUser(String username, String password) in e:\Neyabat\NeyabatDemo\App_Code\LogonUtility.cs:line 130
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e) in e:\Neyabat\NeyabatDemo\Default.aspx.cs:line 63</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/21/2016 9:58:20 AM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/21/2016 9:58:57 AM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/21/2016 9:59:23 AM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/21/2016 10:16:10 AM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------

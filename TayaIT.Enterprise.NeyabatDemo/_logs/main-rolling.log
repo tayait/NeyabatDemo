@@ -1,0 +1,14 @@
+----------------------------------------
+Timestamp: 12/28/2016 1:38:09 PM
+
+Category: add new img  - Priority: -1 - Title:Thread was being aborted.
+
+Message: <SOURCE>mscorlib</SOURCE><STACKTRACE>   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e) in e:\Neyabat\NeyabatDemo\Default.aspx.cs:line 73</STACKTRACE>
+
+
+----------------------------------------

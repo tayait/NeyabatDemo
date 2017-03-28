@@ -1,0 +1,6 @@
+E:\Neyabat\DB\bin\Debug\DB.pdb
+E:\Neyabat\DB\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Neyabat\DB\obj\x86\Debug\DB.pdb
+E:\Neyabat\DB\bin\Debug\DB.dll.config
+E:\Neyabat\DB\bin\Debug\DB.dll
+E:\Neyabat\DB\obj\x86\Debug\DB.dll

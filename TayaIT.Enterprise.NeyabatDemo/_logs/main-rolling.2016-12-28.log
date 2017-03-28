@@ -1,0 +1,160 @@
+----------------------------------------
+Timestamp: 12/27/2016 10:56:42 AM
+
+Category: add new img  - Priority: -1 - Title:The network path was not found.
+
+
+Message: <SOURCE>mscorlib</SOURCE><STACKTRACE>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e) in e:\Neyabat\NeyabatDemo\Default.aspx.cs:line 51</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/27/2016 11:00:17 AM
+
+Category: add new img  - Priority: -1 - Title:The network path was not found.
+
+
+Message: <SOURCE>mscorlib</SOURCE><STACKTRACE>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e) in e:\Neyabat\NeyabatDemo\Default.aspx.cs:line 51</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/27/2016 11:02:04 AM
+
+Category: add new img  - Priority: -1 - Title:The network path was not found.
+
+
+Message: <SOURCE>mscorlib</SOURCE><STACKTRACE>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at TayaIT.Enterprise.Neyabat.Web._Default.btnAddEditDefAtt_Click(Object sender, EventArgs e) in e:\Neyabat\NeyabatDemo\Default.aspx.cs:line 51</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/27/2016 12:25:28 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/27/2016 12:37:31 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/27/2016 12:37:54 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/27/2016 12:38:10 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/27/2016 12:38:37 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/27/2016 12:38:57 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/27/2016 12:46:37 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/27/2016 12:46:58 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------

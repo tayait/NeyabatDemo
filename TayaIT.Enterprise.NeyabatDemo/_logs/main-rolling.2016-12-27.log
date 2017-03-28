@@ -1,0 +1,28 @@
+----------------------------------------
+Timestamp: 12/21/2016 5:11:28 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 12/21/2016 5:11:56 PM
+
+Category: TayaIT.Enterprise.EMadbatah.DAL.SessionHelper.GetProcedureTypes()  - Priority: -1 - Title:The specified named connection is either not found in the configuration, not intended to be used with the EntityClient provider, or not valid.
+
+Message: <SOURCE>System.Data.Entity</SOURCE><STACKTRACE>   at System.Data.EntityClient.EntityConnection.ChangeConnectionString(String newConnectionString)
+   at System.Data.EntityClient.EntityConnection..ctor(String connectionString)
+   at System.Data.Objects.ObjectContext.CreateEntityConnection(String connectionString)
+   at System.Data.Objects.ObjectContext..ctor(String connectionString, String defaultContainerName)
+   at TayaIT.Enterprise.EMadbatah.DAL.EMadbatahEntities..ctor() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\EMadbatahEntities.Designer.cs:line 67
+   at TayaIT.Enterprise.EMadbatah.DAL.ProcedureHelper.GetProcedureTypes() in E:\KNA-Emabdatah\KNA-Emadbatah\TayaIT.Enterprise.EMadbatah.DAL\ProcedureHelper.cs:line 21</STACKTRACE>
+
+
+----------------------------------------

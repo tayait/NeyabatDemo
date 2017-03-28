@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NeyabatDemoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="NeyabatDemoModelStoreContainer">
+    <EntitySet Name="AudioFile" EntityType="NeyabatDemoModel.Store.AudioFile" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="AudioFile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Status" Type="int" />
+    <Property Name="FileSize" Type="bigint" />
+    <Property Name="CreatedAt" Type="datetime" />
+  </EntityType>
+</Schema>
