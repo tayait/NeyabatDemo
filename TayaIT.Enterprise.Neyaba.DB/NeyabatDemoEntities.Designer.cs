@@ -246,6 +246,30 @@ namespace TayaIT.Enterprise.Neyaba.DB
         private Nullable<global::System.DateTime> _CreatedAt;
         partial void OnCreatedAtChanging(Nullable<global::System.DateTime> value);
         partial void OnCreatedAtChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Int32> FileType
+        {
+            get
+            {
+                return _FileType;
+            }
+            set
+            {
+                OnFileTypeChanging(value);
+                ReportPropertyChanging("FileType");
+                _FileType = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("FileType");
+                OnFileTypeChanged();
+            }
+        }
+        private Nullable<global::System.Int32> _FileType;
+        partial void OnFileTypeChanging(Nullable<global::System.Int32> value);
+        partial void OnFileTypeChanged();
 
         #endregion
     

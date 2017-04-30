@@ -12,5 +12,6 @@
     <Property Name="Status" Type="int" />
     <Property Name="FileSize" Type="bigint" />
     <Property Name="CreatedAt" Type="datetime" />
+    <Property Name="FileType" Type="int" />
   </EntityType>
 </Schema>

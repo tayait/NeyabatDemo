@@ -17,6 +17,7 @@
           <Property Name="Status" Type="int" />
           <Property Name="FileSize" Type="bigint" />
           <Property Name="CreatedAt" Type="datetime" />
+          <Property Name="FileType" Type="int" />
         </EntityType>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -34,6 +35,7 @@
           <Property Name="Status" Type="Int32" />
           <Property Type="Int64" Name="FileSize" />
           <Property Type="DateTime" Name="CreatedAt" />
+          <Property Type="Int32" Name="FileType" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -42,7 +44,8 @@
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="NeyabatDemoModelStoreContainer" CdmEntityContainer="NeyabatDemoEntities">
           <EntitySetMapping Name="AudioFiles"><EntityTypeMapping TypeName="NeyabatDemoModel.AudioFile"><MappingFragment StoreEntitySet="AudioFile">
-            <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+            <ScalarProperty Name="FileType" ColumnName="FileType" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
                 <ScalarProperty Name="FileSize" ColumnName="FileSize" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
             <ScalarProperty Name="Name" ColumnName="Name" />

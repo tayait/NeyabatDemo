@@ -65,7 +65,7 @@
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="اسم الملف">
                         <ItemTemplate>
-                            <asp:LinkButton ID="lblFileName" runat="server" Text='<%# Eval("Name")%>' PostBackUrl='<%# String.Format("~/EditSessionFile.aspx?sfid={0}", Eval("ID"))%>'></asp:LinkButton>
+                            <asp:LinkButton ID="lblFileName" runat="server" Text='<%# Eval("Name")%>' PostBackUrl='<%# postbackurl(Eval("ID").ToString(),Eval("FileType").ToString())%>'></asp:LinkButton>
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="الحجم">
@@ -80,13 +80,13 @@
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="الحالة">
                         <ItemTemplate>
-                            <asp:Label ID="Label1" Text='<%# GetFileStatusString(Eval("Name").ToString())%>'
+                            <asp:Label ID="Label1" Text='<%# GetFileStatusString(Eval("Name").ToString(),Eval("FileType").ToString())%>'
                                 runat="server" />
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="عرض">
                         <ItemTemplate>
-                            <asp:LinkButton ID="lblFileView" runat="server" Text='عرض' PostBackUrl='<%# String.Format("~/EditSessionFile.aspx?sfid={0}", Eval("ID"))%>'></asp:LinkButton>
+                            <asp:LinkButton ID="lblFileView" runat="server" Text='عرض' PostBackUrl='<%# postbackurl(Eval("ID").ToString(),Eval("FileType").ToString())%>'></asp:LinkButton>
                         </ItemTemplate>
                     </asp:TemplateField>
                     <asp:TemplateField HeaderText="حذف">

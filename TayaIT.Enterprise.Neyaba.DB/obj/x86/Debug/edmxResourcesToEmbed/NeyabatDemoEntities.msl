@@ -4,6 +4,7 @@
     <EntitySetMapping Name="AudioFiles">
       <EntityTypeMapping TypeName="NeyabatDemoModel.AudioFile">
         <MappingFragment StoreEntitySet="AudioFile">
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
           <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
           <ScalarProperty Name="FileSize" ColumnName="FileSize" />
           <ScalarProperty Name="ID" ColumnName="ID" />

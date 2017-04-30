@@ -9,7 +9,7 @@ namespace TayaIT.Enterprise.Neyaba.DB
     public static class AudioFileHelper
     {
         #region methods
-        public static bool AddNewFile(string text,long size,DateTime createdAt)
+        public static bool AddNewFile(string text,long size,DateTime createdAt,int type)
         {
             try
             {
@@ -19,7 +19,8 @@ namespace TayaIT.Enterprise.Neyaba.DB
                     {
                         Name = text,
                         FileSize = size,
-                        CreatedAt = createdAt
+                        CreatedAt = createdAt,
+                        FileType = type
                     };
                     context.AudioFiles.AddObject(item);
                     context.SaveChanges();
