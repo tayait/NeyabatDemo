@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="EditVideoSessionFile.aspx.cs" Inherits="TayaIT.Enterprise.Neyabat.Web.EditVideoSessionFile" MasterPageFile="~/Site.master" Title="وزارة العدل - عرض الملف الصوتي" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="EditVideoSessionFile.aspx.cs" Inherits="TayaIT.Enterprise.Neyabat.Web.EditVideoSessionFile" MasterPageFile="~/Site.master" Title="تايا اى تى - تحويل الملف الصوتى الى نص - عرض الملف الصوتي" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
  <script type="text/javascript" src="scripts/jquery.hotkeys.js"></script>

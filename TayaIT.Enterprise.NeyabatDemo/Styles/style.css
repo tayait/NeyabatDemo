@@ -266,7 +266,7 @@ select {
 }
 /* header */
 #header {
-    margin-bottom: 30px;
+   
 }
 header#header a.currentuser {
     background-image: none;
@@ -302,10 +302,10 @@ header#header a.currentuser {
     z-index: 12;
 }
 #mainnavigationlist {
-    background: url(../images/header.jpg) no-repeat center center;
-    background-color: #000;
+    background: url(../images/logo.png) no-repeat left center;
     position: relative;
-    height: 141px;
+    height: 100px;
+    margin-left:20px;
 }
 #mainnavigationlist li {
     padding: 15px 160px 0px 30px;

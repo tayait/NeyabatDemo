@@ -1,4 +1,4 @@
-﻿<%@ Page Title="وزارة العدل - الصفحه الرئيسيه" Language="C#" MasterPageFile="~/Site.master"
+﻿<%@ Page Title="تايا اى تى - تحويل الملف الصوتى الى نص - الصفحه الرئيسيه" Language="C#" MasterPageFile="~/Site.master"
     AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="TayaIT.Enterprise.Neyabat.Web._Default" %>
 
 <%@ Import Namespace="TayaIT.Enterprise.EMadbatah.Model" %>
