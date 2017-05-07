@@ -1,11 +1,13 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="EditSessionFile.aspx.cs" Inherits="TayaIT.Enterprise.Neyabat.Web.EditSessionFile" MasterPageFile="~/Site.master" Title="تايا اى تى - تحويل الملف الصوتى الى نص - عرض الملف الصوتي" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
- <script type="text/javascript" src="scripts/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="scripts/jquery.hotkeys.js"></script>
     <script type="text/javascript" src="scripts/tiny_mce/jquery.tinymce.js"></script>
     <script type="text/javascript" src="scripts/jPlayer/jquery.jplayer.min.js"></script>
+    <script type="text/javascript" src="scripts/EditSessionScript.js"></script>
     <link href="styles/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
     <link href="styles/select2.min.css" rel="stylesheet" type="text/css" />
+    
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <form id="editSessionFileForm" runat="server">
