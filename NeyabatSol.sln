@@ -6,6 +6,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TayaIT.Enterprise.NeyabatDemo", "TayaIT.Enterprise.NeyabatDemo\", "{0F70AA7C-D344-4889-8CA8-A039A9B45F3B}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{F746A95D-29DC-484A-BB4E-65AE8DEA7584}|TayaIT.Enterprise.Neyaba.DB.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/TayaIT.Enterprise.NeyabatDemo"
 		Debug.AspNetCompiler.PhysicalPath = "TayaIT.Enterprise.NeyabatDemo\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TayaIT.Enterprise.NeyabatDemo\"

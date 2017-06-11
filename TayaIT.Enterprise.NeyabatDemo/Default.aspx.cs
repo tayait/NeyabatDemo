@@ -18,56 +18,64 @@ namespace TayaIT.Enterprise.Neyabat.Web
     public partial class _Default : BasePage
     {
         JavaScriptSerializer serializer = new JavaScriptSerializer();
-
+        public string username = "";
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["userObj"] == null)
+                Response.Redirect("login.aspx");
+
+            User userObj = (User)Session["userObj"];
+            username = userObj.Name;
+            //  lblUserName.Text = username;
             if (!Page.IsPostBack)
             {
                 gvbind();
             }
-           // this.Title = "وزارد العدل - النيابات العامة";
         }
 
-      
+
         protected void btnAddEditDefAtt_Click(object sender, EventArgs e)
         {
             try
             {
-
                 string filename = "unknown.jpg";
                 if (fuAttAvatar.HasFile)
                 {
-                    string[] temp = fuAttAvatar.FileName.Split(new string[] { "." }, StringSplitOptions.RemoveEmptyEntries);
-                    string tempstr = DateTime.Now.ToShortTimeString().ToLower().Replace("/", "").Replace(" ", "").Replace(":", "").Replace("am", "").Replace("pm", "");
-                    filename = temp[0] + "_" + tempstr + "." + temp[1];
-                    filename = filename.Replace("/", "_").Replace(" ", "_").Replace(":", "_");
-                    filename = filename.Replace(" ", "").ToLower();
+                    if (fuAttAvatar.PostedFile.ContentType.ToLower().IndexOf("mp3") != -1)
+                    {
+                        string[] temp = fuAttAvatar.FileName.Split(new string[] { "." }, StringSplitOptions.RemoveEmptyEntries);
+                        string tempstr = DateTime.Now.ToShortTimeString().ToLower().Replace("/", "").Replace(" ", "").Replace(":", "").Replace("am", "").Replace("pm", "");
+                        filename = temp[0] + "_" + tempstr + "." + temp[1];
+                        filename = filename.Replace("/", "_").Replace(" ", "_").Replace(":", "_");
+                        filename = filename.Replace(" ", "").ToLower();
 
-                    string audioPath = AppConfig.GetInstance().AudioServerPath;
-                    fuAttAvatar.SaveAs(audioPath + filename);
-                    fuAttAvatar.SaveAs(Server.MapPath("~") + "\\SessionFiles\\" + filename);
+                        string audioPath = AppConfig.GetInstance().AudioServerPath;
+                        fuAttAvatar.SaveAs(audioPath + filename);
+                        fuAttAvatar.SaveAs(Server.MapPath("~") + "\\SessionFiles\\" + filename);
 
-                    /*  AppDomain.CurrentDomain.SetPrincipalPolicy(PrincipalPolicy.WindowsPrincipal);
-                      IntPtr admin_token = default(IntPtr);
-                      System.Security.Principal.WindowsIdentity wid_current = System.Security.Principal.WindowsIdentity.GetCurrent();
-                      System.Security.Principal.WindowsIdentity wid_admin = null;
-                      System.Security.Principal.WindowsImpersonationContext wic = null;
-                      LogonUtility.ImpersonateUser("Develop\\root", "TayaDemo");*/
-                   // File.Copy(Server.MapPath("~") + "\\SessionFiles\\" + filename, audioPath + filename);
-                    long size = fuAttAvatar.FileContent.Length;
-                    AudioFile file = new AudioFile();
-                    file.Name = filename;
-                    file.FileSize = size;
-                    file.CreatedAt = DateTime.Now;
-                    file.Status = 1;
-                    AudioFileHelper.AddNewFile(file);
+                        User userObj = (User)Session["userObj"];
+                        long size = fuAttAvatar.FileContent.Length;
+                        AudioFile file = new AudioFile();
+                        file.Name = filename;
+                        file.FileSize = size;
+                        file.CreatedAt = DateTime.Now;
+                        file.Status = 1;
+                        file.UserID = userObj.ID;
+                        file.FileType = 0;
+                        AudioFileHelper.AddNewFile(file);
 
-                    lblInfo1.Text = "تم الحفظ بنجاح";
-                    lblInfo1.Visible = true;
+                        lblInfo1.Text = "تم الحفظ بنجاح";
+                        lblInfo1.Visible = true;
 
-                    gvbind();
-                    Response.Redirect("Default.aspx");
+                        gvbind();
+                        Response.Redirect("Default.aspx");
 
+                    }
+                    else
+                    {
+                        lblInfo1.Text = "ملف غير صحيح";
+                        lblInfo1.Visible = true;
+                    }
                 }
             }
             catch (Exception ex)
@@ -80,15 +88,20 @@ namespace TayaIT.Enterprise.Neyabat.Web
 
         protected void gvbind()
         {
-            List<AudioFile> AudioFileLst = AudioFileHelper.GetAudioFiles();
-            gvAudioFiles.DataSource = AudioFileLst;
-            gvAudioFiles.DataBind();
+            User userObj = (User)Session["userObj"];
+            if (userObj != null)
+            {
+                List<AudioFile> AudioFileLst = AudioFileHelper.GetAudioFiles(userObj.ID);
+                gvAudioFiles.DataSource = AudioFileLst;
+                gvAudioFiles.DataBind();
+            }
         }
 
         public string GetFileStatusString(string filename)
         {
             string fileStatusStr = "";
             string xmlFilePath = string.Format("{0}{1}", AppConfig.GetInstance().VecSysServerPath, filename.ToLower().Replace("mp3", "trans.xml"));
+            string tmpPath = AppConfig.GetInstance().AudioServerPath.Replace("Audio", "tmp");
             if (File.Exists(xmlFilePath))
             {
                 FileInfo fileInfo = new FileInfo(xmlFilePath);
@@ -97,12 +110,12 @@ namespace TayaIT.Enterprise.Neyabat.Web
                 else
                 {
                     fileStatusStr = "قيد التحويل";
-                    if (Directory.Exists("\\\\192.168.0.60\\tmp"))
+                    if (Directory.Exists(tmpPath))
                     {
                         // This path is a directory
-                        fileStatusStr += "<br>" + ProcessDirectory("\\\\192.168.0.60\\tmp", filename);
+                        fileStatusStr += "<br>" + ProcessDirectory(tmpPath, filename);
                     }
-                   
+
                 }
 
             }
@@ -111,20 +124,20 @@ namespace TayaIT.Enterprise.Neyabat.Web
             return fileStatusStr;
         }
 
-        public static string ProcessDirectory(string targetDirectory,string fileName)
+        public static string ProcessDirectory(string targetDirectory, string fileName)
         {
             string txt = "";
             // Recurse into subdirectories of this directory.
             string[] subdirectoryEntries = Directory.GetDirectories(targetDirectory);
             foreach (string subdirectory in subdirectoryEntries)
             {
-                if (subdirectory.IndexOf(fileName.Replace(".mp3","")) > 0)
+                if (subdirectory.IndexOf(fileName.Replace(".mp3", "")) > 0)
                 {
                     string fileprocesspath = subdirectory + "\\input.idp";
-                    if(File.Exists(fileprocesspath))
+                    if (File.Exists(fileprocesspath))
                     {
                         txt = System.IO.File.ReadAllText(fileprocesspath);
-                        txt = txt.Replace("vrbs_trans:", "").Replace("\\n","");
+                        txt = txt.Replace("vrbs_trans:", "").Replace("\\n", "");
                         txt = "(" + txt + "%" + ")";
                     }
                 }
@@ -140,6 +153,12 @@ namespace TayaIT.Enterprise.Neyabat.Web
             AudioFileHelper.DeleteAudioFileById(audioFileID);
             gvbind();
 
+        }
+
+        protected void btnlogout_Click(object sender, EventArgs e)
+        {
+            Session["userObj"] = null;
+            Response.Redirect("login.aspx");
         }
     }
 }

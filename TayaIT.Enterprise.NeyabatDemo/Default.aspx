@@ -4,9 +4,7 @@
 <%@ Import Namespace="TayaIT.Enterprise.EMadbatah.Model" %>
 <%@ Import Namespace="TayaIT.Enterprise.Neyabat.Web" %>
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
-    <script src="scripts/SessionScript.js" type="text/javascript"></script>
     <script src="scripts/fileuploader.js" type="text/javascript"></script>
-    <script src="scripts/DefaultScript.js" type="text/javascript"></script>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <asp:Literal Text="" runat="server" ID="litStartupScript" />
@@ -39,6 +37,16 @@
         <div>
             <asp:Label runat="server" ID="lblInfo1" Visible="false" CssClass="lInfo"></asp:Label>
         </div>
+        <div class="grid_24 ">
+            <div class="borderBD row h2">
+                <div class="fr"><h2> أهلا : <%= username%></h2></div>
+                 
+                <div class="fl">
+                    <strong>
+                        <asp:Button ID="btnlogout" runat="server" Text="خروج" CssClass="btn" 
+                        onclick="btnlogout_Click" /></strong></div>
+            </div>
+        </div>
         <div class="grid_24 xxlargerow">
             <div class="Ntitle">
                 نظام تحويل التسجيلات الصوتية إلى نص آلياً:</div>
@@ -47,9 +55,9 @@
         </div>
         <div class="grid_22">
             <div style="padding-bottom: 20px">
-              <asp:Label ID="lblFilelbl" runat="server" Text='اختر الملف المراد تحميله:' class="h2"></asp:Label>
+                <asp:Label ID="lblFilelbl" runat="server" Text='اختر الملف المراد تحميله:' class="h2"></asp:Label>
                 <asp:FileUpload ID="fuAttAvatar" runat="server" />
-                <asp:Button ID="btnAddEditDefAtt" runat="server" Text="تحميل" OnClick="btnAddEditDefAtt_Click"
+                <asp:Button ID="btnAddEditDefAtt" runat="server" Text="رفع الملف" OnClick="btnAddEditDefAtt_Click"
                     ValidationGroup="VGSession" CssClass="btn" />
                 <div class="clear">
                 </div>

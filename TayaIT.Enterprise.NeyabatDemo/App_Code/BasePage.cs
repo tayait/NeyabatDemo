@@ -9,6 +9,7 @@ using System.Web.UI;
 using System.Text;
 using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
+using TayaIT.Enterprise.Neyaba.DB;
 
 /// <summary>
 /// Summary description for BasePage
@@ -101,6 +102,18 @@ namespace TayaIT.Enterprise.Neyabat.Web
             }
         }
 
+        public User CurrentUser
+        {
+            get
+            {
+                return (User)Session["userObj"];
+            }
+            set
+            {
+                Session["userObj"] = value;
+            }
+        }
+
         public void HideMainPageContent()
         {
             ((ContentPlaceHolder)this.Master.FindControl("MainContent")).Visible = false;
@@ -145,7 +158,7 @@ namespace TayaIT.Enterprise.Neyabat.Web
             {
                 _preferences.SavePreferencesToCookie();
             }
-
+           
             DisablePageCaching();
         }
 

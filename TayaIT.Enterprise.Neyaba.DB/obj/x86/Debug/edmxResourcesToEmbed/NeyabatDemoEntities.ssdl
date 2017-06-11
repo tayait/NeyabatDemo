@@ -2,6 +2,11 @@
 <Schema Namespace="NeyabatDemoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
   <EntityContainer Name="NeyabatDemoModelStoreContainer">
     <EntitySet Name="AudioFile" EntityType="NeyabatDemoModel.Store.AudioFile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="User" EntityType="NeyabatDemoModel.Store.User" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_AudioFile_User" Association="NeyabatDemoModel.Store.FK_AudioFile_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="AudioFile" EntitySet="AudioFile" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="AudioFile">
     <Key>
@@ -12,5 +17,27 @@
     <Property Name="Status" Type="int" />
     <Property Name="FileSize" Type="bigint" />
     <Property Name="CreatedAt" Type="datetime" />
+    <Property Name="FileType" Type="int" />
+    <Property Name="UserID" Type="bigint" />
   </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="1000" />
+    <Property Name="Pass" Type="nvarchar" MaxLength="1000" />
+  </EntityType>
+  <Association Name="FK_AudioFile_User">
+    <End Role="User" Type="NeyabatDemoModel.Store.User" Multiplicity="0..1" />
+    <End Role="AudioFile" Type="NeyabatDemoModel.Store.AudioFile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AudioFile">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

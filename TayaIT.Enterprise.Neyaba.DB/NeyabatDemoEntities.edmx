@@ -7,6 +7,11 @@
     <Schema Namespace="NeyabatDemoModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
         <EntityContainer Name="NeyabatDemoModelStoreContainer">
           <EntitySet Name="AudioFile" EntityType="NeyabatDemoModel.Store.AudioFile" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="User" EntityType="NeyabatDemoModel.Store.User" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_AudioFile_User" Association="NeyabatDemoModel.Store.FK_AudioFile_User">
+            <End Role="User" EntitySet="User" />
+            <End Role="AudioFile" EntitySet="AudioFile" />
+          </AssociationSet>
         </EntityContainer>
         <EntityType Name="AudioFile">
           <Key>
@@ -17,13 +22,40 @@
           <Property Name="Status" Type="int" />
           <Property Name="FileSize" Type="bigint" />
           <Property Name="CreatedAt" Type="datetime" />
+          <Property Name="FileType" Type="int" />
+          <Property Name="UserID" Type="bigint" />
         </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Pass" Type="nvarchar" MaxLength="1000" />
+        </EntityType>
+        <Association Name="FK_AudioFile_User">
+          <End Role="User" Type="NeyabatDemoModel.Store.User" Multiplicity="0..1" />
+          <End Role="AudioFile" Type="NeyabatDemoModel.Store.AudioFile" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="AudioFile">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="NeyabatDemoModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
         <EntityContainer Name="NeyabatDemoEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="AudioFiles" EntityType="NeyabatDemoModel.AudioFile" />
+          <EntitySet Name="Users" EntityType="NeyabatDemoModel.User" />
+          <AssociationSet Name="FK_AudioFile_User" Association="NeyabatDemoModel.FK_AudioFile_User">
+            <End Role="User" EntitySet="Users" />
+            <End Role="AudioFile" EntitySet="AudioFiles" />
+          </AssociationSet>
         </EntityContainer>
         <EntityType Name="AudioFile">
           <Key>
@@ -34,7 +66,31 @@
           <Property Name="Status" Type="Int32" />
           <Property Type="Int64" Name="FileSize" />
           <Property Type="DateTime" Name="CreatedAt" />
+          <Property Type="Int32" Name="FileType" />
+          <Property Type="Int64" Name="UserID" />
+          <NavigationProperty Name="User" Relationship="NeyabatDemoModel.FK_AudioFile_User" FromRole="AudioFile" ToRole="User" />
         </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int64" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Pass" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="AudioFiles" Relationship="NeyabatDemoModel.FK_AudioFile_User" FromRole="User" ToRole="AudioFile" />
+        </EntityType>
+        <Association Name="FK_AudioFile_User">
+          <End Type="NeyabatDemoModel.User" Role="User" Multiplicity="0..1" />
+          <End Type="NeyabatDemoModel.AudioFile" Role="AudioFile" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="AudioFile">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -42,12 +98,23 @@
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="NeyabatDemoModelStoreContainer" CdmEntityContainer="NeyabatDemoEntities">
           <EntitySetMapping Name="AudioFiles"><EntityTypeMapping TypeName="NeyabatDemoModel.AudioFile"><MappingFragment StoreEntitySet="AudioFile">
-            <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+            <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="FileType" ColumnName="FileType" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
                 <ScalarProperty Name="FileSize" ColumnName="FileSize" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
             <ScalarProperty Name="Name" ColumnName="Name" />
             <ScalarProperty Name="Status" ColumnName="Status" />
           </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="NeyabatDemoModel.User">
+              <MappingFragment StoreEntitySet="User">
+                <ScalarProperty Name="Pass" ColumnName="Pass" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
@@ -70,6 +137,11 @@
     <Diagrams>
       <Diagram Name="Model1">
         <EntityTypeShape EntityType="NeyabatDemoModel.AudioFile" Width="1.5" PointX="0.75" PointY="0.75" Height="1.59568359375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NeyabatDemoModel.User" Width="1.5" PointX="3.75" PointY="0.75" Height="1.5956835937499996" />
+        <AssociationConnector Association="NeyabatDemoModel.FK_AudioFile_User" >
+          <ConnectorPoint PointX="3.75" PointY="1.6439925130208337" />
+          <ConnectorPoint PointX="2.25" PointY="1.6439925130208337" />
+        </AssociationConnector>
       </Diagram>
     </Diagrams>
   </Designer>

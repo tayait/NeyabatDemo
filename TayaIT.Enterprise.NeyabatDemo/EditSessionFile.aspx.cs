@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using TayaIT.Enterprise.EMadbatah.Model.VecSys;
 using TayaIT.Enterprise.EMadbatah.Vecsys;
 using TayaIT.Enterprise.EMadbatah.Model;
+using TayaIT.Enterprise.Neyaba.DB;
 using System.Collections;
 using TayaIT.Enterprise.EMadbatah.Config;
 using System.Text;
@@ -23,10 +24,11 @@ namespace TayaIT.Enterprise.Neyabat.Web
        
         private void BindData()
         {
-            if (!string.IsNullOrEmpty(SessionFileID))
+            User userObj = (User)Session["userObj"];
+            if (!string.IsNullOrEmpty(SessionFileID) && userObj != null)
             {
                 Neyaba.DB.AudioFile file = Neyaba.DB.AudioFileHelper.GetAudioFileByID(long.Parse(SessionFileID));
-                if (file != null && file.Status == 1)
+                if (file != null && file.Status == 1 && file.UserID == userObj.ID)
                 {
                     string mp3FilePath = string.Format("{0}{1}", AppConfig.GetInstance().AudioServerPath, file.Name);
                     string txtFilePath = string.Format("{0}{1}", AppConfig.GetInstance().VecSysServerPath, file.Name.ToLower().Replace("mp3", "txt"));

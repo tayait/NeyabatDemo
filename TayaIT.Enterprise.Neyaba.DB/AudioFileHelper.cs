@@ -54,6 +54,7 @@ namespace TayaIT.Enterprise.Neyaba.DB
             }
 
         }
+
         public static List<AudioFile> GetAudioFiles()
         {
             try
@@ -61,6 +62,22 @@ namespace TayaIT.Enterprise.Neyaba.DB
                 using (NeyabatDemoEntities context = new NeyabatDemoEntities())
                 {
                     return context.AudioFiles.Where(c => c.Status == 1).OrderByDescending(c => c.CreatedAt).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                //LogHelper.LogException(ex, "TayaIT.Enterprise.EMadbatah.DAL.AgendaHelper.GetAgendaItemsByAgendaID(" + agendaID + ")");
+                return null;
+            }
+        }
+
+        public static List<AudioFile> GetAudioFiles(long userId)
+        {
+            try
+            {
+                using (NeyabatDemoEntities context = new NeyabatDemoEntities())
+                {
+                    return context.AudioFiles.Where(c => c.Status == 1 && c.UserID == userId).OrderByDescending(c => c.CreatedAt).ToList();
                 }
             }
             catch (Exception ex)

@@ -10,3 +10,9 @@ E:\Neyabat\TayaIT.Enterprise.Neyaba.DB\bin\Debug\TayaIT.Enterprise.Neyaba.DB.pdb
 E:\Neyabat\TayaIT.Enterprise.Neyaba.DB\obj\x86\Debug\ResolveAssemblyReference.cache
 E:\Neyabat\TayaIT.Enterprise.Neyaba.DB\obj\x86\Debug\TayaIT.Enterprise.Neyaba.DB.dll
 E:\Neyabat\TayaIT.Enterprise.Neyaba.DB\obj\x86\Debug\TayaIT.Enterprise.Neyaba.DB.pdb
+E:\NeyabatK8\TayaIT.Enterprise.Neyaba.DB\bin\Debug\TayaIT.Enterprise.Neyaba.DB.dll.config
+E:\NeyabatK8\TayaIT.Enterprise.Neyaba.DB\bin\Debug\TayaIT.Enterprise.Neyaba.DB.dll
+E:\NeyabatK8\TayaIT.Enterprise.Neyaba.DB\bin\Debug\TayaIT.Enterprise.Neyaba.DB.pdb
+E:\NeyabatK8\TayaIT.Enterprise.Neyaba.DB\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\NeyabatK8\TayaIT.Enterprise.Neyaba.DB\obj\x86\Debug\TayaIT.Enterprise.Neyaba.DB.dll
+E:\NeyabatK8\TayaIT.Enterprise.Neyaba.DB\obj\x86\Debug\TayaIT.Enterprise.Neyaba.DB.pdb

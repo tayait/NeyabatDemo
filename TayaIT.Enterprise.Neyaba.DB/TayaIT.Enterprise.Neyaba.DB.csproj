@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AudioFileHelper.cs" />
+    <Compile Include="UserHelper.cs" />
     <Compile Include="NeyabatDemoEntities.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
