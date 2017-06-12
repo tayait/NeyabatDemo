@@ -1,12 +1,10 @@
-﻿<%@ Page Title="وزارة العدل - الصفحه الرئيسيه" Language="C#" MasterPageFile="~/Site.master"
+﻿<%@ Page Title="وزارة العدل - الدخول الى النظام" Language="C#" MasterPageFile="~/Site.master"
     AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="TayaIT.Enterprise.Neyabat.Web._Login" %>
 
 <%@ Import Namespace="TayaIT.Enterprise.EMadbatah.Model" %>
 <%@ Import Namespace="TayaIT.Enterprise.Neyabat.Web" %>
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
-    <script src="scripts/SessionScript.js" type="text/javascript"></script>
     <script src="scripts/fileuploader.js" type="text/javascript"></script>
-    <script src="scripts/DefaultScript.js" type="text/javascript"></script>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <asp:Literal Text="" runat="server" ID="litStartupScript" />
