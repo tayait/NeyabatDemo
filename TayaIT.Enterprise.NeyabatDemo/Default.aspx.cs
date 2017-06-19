@@ -41,7 +41,10 @@ namespace TayaIT.Enterprise.Neyabat.Web
                 string filename = "unknown.jpg";
                 if (fuAttAvatar.HasFile)
                 {
-                    if (fuAttAvatar.PostedFile.ContentType.ToLower().IndexOf("mp3") != -1)
+                    if (fuAttAvatar.PostedFile.ContentType.ToLower().IndexOf("mp3") != -1 || 
+                        fuAttAvatar.PostedFile.ContentType.ToLower().IndexOf("mpeg") != -1 ||
+                        fuAttAvatar.PostedFile.ContentType.ToLower().IndexOf("mp1") != -1 ||
+                        fuAttAvatar.PostedFile.ContentType.ToLower().IndexOf("mpg") != -1 )
                     {
                         string[] temp = fuAttAvatar.FileName.Split(new string[] { "." }, StringSplitOptions.RemoveEmptyEntries);
                         string tempstr = DateTime.Now.ToShortTimeString().ToLower().Replace("/", "").Replace(" ", "").Replace(":", "").Replace("am", "").Replace("pm", "");
