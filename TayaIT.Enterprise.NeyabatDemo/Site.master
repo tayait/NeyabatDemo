@@ -29,6 +29,7 @@
         <header id="header">
       <nav id="mainnavigation" class="container_24">
        <ul id="mainnavigationlist">
+       <div class="appLogo"></div>
         </ul>
             <div class="clear"></div>
       </nav>

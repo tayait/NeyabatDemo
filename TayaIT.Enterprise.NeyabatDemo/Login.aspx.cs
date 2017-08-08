@@ -29,7 +29,7 @@ namespace TayaIT.Enterprise.Neyabat.Web
                 }
              
             }
-           // this.Title = "وزارد العدل - النيابات العامة";
+           // this.Title = "وزارد الصحة - النيابات العامة";
         }
 
 

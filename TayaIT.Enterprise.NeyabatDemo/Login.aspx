@@ -1,4 +1,4 @@
-﻿<%@ Page Title="وزارة العدل - الدخول الى النظام" Language="C#" MasterPageFile="~/Site.master"
+﻿<%@ Page Title="وزارة الصحة - الدخول الى النظام" Language="C#" MasterPageFile="~/Site.master"
     AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="TayaIT.Enterprise.Neyabat.Web._Login" %>
 
 <%@ Import Namespace="TayaIT.Enterprise.EMadbatah.Model" %>
